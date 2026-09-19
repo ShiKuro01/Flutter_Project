@@ -83,7 +83,7 @@ class _DetailScreenState extends State<DetailScreen> {
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: const Color(0xFFFFF4D2), // Pastel yellow background for description
                 border: Border.all(color: Colors.black, width: 3),
                 boxShadow: const [
                   BoxShadow(color: Colors.black, offset: Offset(6, 6), blurRadius: 0),
